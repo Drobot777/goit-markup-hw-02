@@ -1,7 +1,48 @@
 :root {
-  --main-color-text: #434455;
+  --main-color: #434455;
   --secondary-color: #2e2f42;
   --background-color: #e5e5e5;
   --secondary-bg-color: #4d5ae5;
   --hero-color-text: #ffffff;
+}
+body {
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+ul {
+  list-style: none;
+}
+span {
+  color: var(--secondary-bg-color);
+}
+/* header */
+.nav-main {
+  color: var(--secondary-color);
+}
+.logo {
+  color: var(--secondary-color);
+}
+.contacts-link {
+  color: var(--main-color);
+}
+/* hero */
+.hero {
+  background-color: var(--secondary-color);
+}
+h1 {
+  color: var(--hero-color-text);
+}
+.hero-btn {
+  color: var(--hero-color-text);
+  background-color: var(--secondary-bg-color);
+}
+/* footer */
+.bottom {
+  background-color: var(--secondary-color);
+}
+.logo-bottom {
+  color: #f4f4fd;
+}
+.text-bottom {
+  color: #e7e9fc;
 }
