@@ -18,7 +18,7 @@ body {
   list-style: none;
 }
 .link {
-  text-decoration-line: none;
+  text-decoration: none;
 }
 .accent {
   color: var(--secondary-bg-color);
@@ -36,6 +36,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: #404bbf;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
 }
 .logo {
   color: var(--secondary-color);
@@ -69,6 +77,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
 }
 .advantages .title,
 .team .subtitle {
@@ -108,4 +120,21 @@ body {
 }
 .footer .text {
   color: #e7e9fc;
+}
+/* portfolio */
+.portfolio .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--secondary-bg-color);
+}
+.portfolio .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+.portfolio .text {
+  color: var(--main-color);
 }
