@@ -9,27 +9,31 @@ body {
   color: var(--main-color);
   background-color: var(--background-color);
 }
-ul {
+.list {
   list-style: none;
 }
-span {
+.link {
+  text-decoration-line: none;
+}
+.accent {
   color: var(--secondary-bg-color);
 }
 /* header */
-.nav-main {
+.navigation .link {
   color: var(--secondary-color);
 }
 .logo {
   color: var(--secondary-color);
+  text-decoration-line: none;
 }
-.contacts-link {
+.contacts .link {
   color: var(--main-color);
 }
 /* hero */
 .hero {
   background-color: var(--secondary-color);
 }
-h1 {
+.hero .title {
   color: var(--hero-color-text);
 }
 .hero-btn {
@@ -37,12 +41,3 @@ h1 {
   background-color: var(--secondary-bg-color);
 }
 /* footer */
-.bottom {
-  background-color: var(--secondary-color);
-}
-.logo-bottom {
-  color: #f4f4fd;
-}
-.text-bottom {
-  color: #e7e9fc;
-}
